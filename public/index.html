@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>FileSharing | GT5</title>
+        <link rel="icon" href="ico/mainicon.ico">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body>
+
+        <div class="app">
+            <div class="screen join-screen active">
+                <div class="form">
+                    <h2>Chia sẻ File trực tuyến</h2>
+                    <div class="form-input">
+                        <button id="sender-start-con-btn">Tạo phòng chia sẻ File</button>
+                    </div>
+
+                    <div class="form-input" id="join-id">
+                    </div>
+
+                    <div class="form-input">
+                        <a href="http://localhost:5000/receiver.html">
+                            <button id="join-room-btn">Tham gia phòng bằng ID có sẵn</button>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+  
+            <div class="screen fs-screen">
+                <div class="file-input">
+                    <label for="file-input" style="color: white;">
+                        Click chọn File mà bạn cần chia sẻ
+                    </label>
+                    <input type="file" id="file-input">
+                </div>
+                <div class="files-list">
+                    <div class="title">Danh sách file đã được chia sẻ</div>
+                </div>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="js/code.js"></script>
+        </script>
+    </body>
+</html>

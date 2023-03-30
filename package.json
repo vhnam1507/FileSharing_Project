@@ -1,0 +1,24 @@
+{
+  "name": "filesharing_project",
+  "version": "1.0.0",
+  "description": "My project in network programming class",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VHNam1507/FileSharing_Project.git"
+  },
+  "author": "VHNamm1507",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VHNam1507/FileSharing_Project/issues"
+  },
+  "homepage": "https://github.com/VHNam1507/FileSharing_Project#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1"
+  }
+}

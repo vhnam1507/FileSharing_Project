@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FileSharing | GT5</title>
+	<link rel="icon" href="ico/mainicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div class="app">
+		<div class="screen join-screen active">
+			<div class="form">
+				<h2>Chia sẻ File trực tuyến</h2>
+				<div class="form-input">
+					<label style="color: #fff;">Nhập mã phòng</label>
+					<input type="text" id="join-id">
+				</div>
+				<div class="form-input">
+					<button id="receiver-start-con-btn">Tham gia phòng</button>
+				</div>
+			</div>
+		</div>
+		<div class="screen fs-screen">
+			<div class="files-list">
+				<div class="title">Danh sách file đã được chia sẻ</div>
+			</div>	
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.1/download.min.js"></script>
+	<script type="text/javascript" src="js/receiver.js"></script>
+</body>
+</html>
