@@ -1,1 +1,38 @@
-node_modules
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Distribution directories
+# dist/
+# out/
+# build/
+# tmp/
+# public/
+
+# Environment files
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Other files
+*.pem
+*.pid
+*.lock
+yarn.lock
+*.bak
+*.swp
+.DS_Store
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
